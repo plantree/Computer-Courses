@@ -1,2 +1,12 @@
-# Computer-Courses
-Process of learning different computer courses
+# 计算机课程学习
+
+#### 1. 描述
+记录计算机基础知识的学习过程。
+资源基本来自书籍和开源课程。
+
+#### 2. 分类
+
+##### 2.1 计算机网络
+
+- 《计算机网络——自顶向下方法》
+
