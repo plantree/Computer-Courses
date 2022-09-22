@@ -24,10 +24,21 @@
 
 ##### 2.1 A simple client/server socket program
 
-- 官方文档：[K_R_sockets_in_Java.pdf](https://gaia.cs.umass.edu/kurose_ross/programming/simple_socket/K_R_sockets_in_Java.pdf)
-- 习题解答：
+- 文档：[K_R_sockets_in_Java.pdf](https://gaia.cs.umass.edu/kurose_ross/programming/simple_socket/K_R_sockets_in_Java.pdf)
+- 习题：[01 simple_socket_program](https://gaia.cs.umass.edu/kurose_ross/programming/simple_socket/simple_socket_program_PA1.docx)
+- 解答：[01 simple_socket_program](./Socket/01_Simple_Socket/Code/)
 
-#### 2.2 
+##### 2.2 Webserver 
+
+- 文档&习题：[WebServer Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/WebServer_programming_lab_only.pdf)
+- 解答：[WebServer.py](./Socket/02_WebServer/Code/WebServer.py)
+
+##### 2.3 UDPPingerServer
+
+- 文档&习题：[UDP Pinger Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/UDP_Pinger_programming_lab_only.pdf)
+- 解答：[UDPPingerClient.py](./Socket/02_WebServer/Code/UDPPingerClient.py)
+
+
 
 #### 3. Wireshark作业
 
