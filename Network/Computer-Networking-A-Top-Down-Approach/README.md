@@ -38,7 +38,15 @@
 - 文档&习题：[UDP Pinger Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/UDP_Pinger_programming_lab_only.pdf)
 - 解答：[UDPPingerClient.py](./Socket/02_WebServer/Code/UDPPingerClient.py)
 
-##### 2.4 
+##### 2.4 UDPPingerServer
+
+- 文档&习题：[SMTP Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/SMTP_programming_lab_only.pdf)
+- 解答：[MailClient.py](./Socket/02_WebServer/Code/MailClient.py)
+
+##### 2.5 ICMP Pinger
+
+- 文档&习题：[ICMP Pinger Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/ICMP_ping_programming_lab_only.pdf)
+- 解答：[ICMPPinger.py](./Socket/02_WebServer/Code/ICMPPinger.py)
 
 #### 3. Wireshark作业
 

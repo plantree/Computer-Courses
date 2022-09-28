@@ -10,4 +10,4 @@ for i in range(10):
     requestTime = time.time()
     message = '{0} {1}'.format(i + 1, requestTime)
     clientSockt.sendto(message.encode(), (serverAddr, serverPort))
-clientSockt.close()
+clientSockt.close()  
