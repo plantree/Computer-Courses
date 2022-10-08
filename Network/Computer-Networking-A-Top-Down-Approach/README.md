@@ -48,6 +48,11 @@
 - 文档&习题：[ICMP Pinger Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/ICMP_ping_programming_lab_only.pdf)
 - 解答：[ICMPPinger.py](./Socket/02_WebServer/Code/ICMPPinger.py)
 
+##### 2.6 ICMP Traceroute Lab
+
+- 文档&习题：[Traceroute Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/Traceroute_programming_lab_only.pdf)
+- 解答：
+
 #### 3. Wireshark作业
 
 
