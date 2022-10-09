@@ -51,6 +51,16 @@
 ##### 2.6 ICMP Traceroute Lab
 
 - 文档&习题：[Traceroute Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/Traceroute_programming_lab_only.pdf)
+- 解答：[ICMPPinger.py](./Socket/02_WebServer/Code/ICMPTraceroute.py)
+
+##### 2.7 HTTP Web Proxy Server Lab
+
+- 文档&习题：[HTTP Web Proxy Server Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/Web_Proxy_programming_only.pdf)
+- 解答：[WebProxy.py](./Socket/02_WebServer/Code/WebProxy.py)
+
+##### 2.8 Video Streaming with RTSP and RTP Lab
+
+- 文档&习题：[Video Streaming with RTSP and RTP Lab](https://gaia.cs.umass.edu/kurose_ross/programming/Python_code_only/VideoStreaming_programming_lab_only.pdf)
 - 解答：
 
 #### 3. Wireshark作业
@@ -64,3 +74,5 @@
 1. [《计算机网络——自顶向下方法（7nd）》](https://book.douban.com/subject/30280001/)
 2. [Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
 3. [WIRESHARK LABS](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
+4. [ICMP Wikipedia](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+5. 
