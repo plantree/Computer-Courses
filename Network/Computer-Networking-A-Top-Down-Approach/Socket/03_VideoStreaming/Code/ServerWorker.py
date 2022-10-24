@@ -40,6 +40,10 @@ class ServerWorker:
 		"""Process RTSP request sent from the client."""
 		# Get the request type
 		request = data.split('\n')
+
+		# for debug
+		print(request)
+
 		line1 = request[0].split(' ')
 		requestType = line1[0]
 		
@@ -59,13 +63,13 @@ class ServerWorker:
 					self.clientInfo['videoStream'] = VideoStream(filename)
 					self.state = self.READY
 				except IOError:
-					self.replyRtsp(self.FILE_NOT_FOUND_404, seq[1])
+					self.replyRtsp(self.FILE_NOT_FOUND_404, seq[0])
 				
 				# Generate a randomized RTSP session ID
 				self.clientInfo['session'] = randint(100000, 999999)
 				
 				# Send RTSP reply
-				self.replyRtsp(self.OK_200, seq[1])
+				self.replyRtsp(self.OK_200, seq[0])
 				
 				# Get the RTP/UDP port from the last line
 				self.clientInfo['rtpPort'] = request[2].split(' ')[3]
@@ -79,7 +83,7 @@ class ServerWorker:
 				# Create a new socket for RTP/UDP
 				self.clientInfo["rtpSocket"] = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 				
-				self.replyRtsp(self.OK_200, seq[1])
+				self.replyRtsp(self.OK_200, seq[0])
 				
 				# Create a new thread and start sending RTP packets
 				self.clientInfo['event'] = threading.Event()
@@ -94,7 +98,7 @@ class ServerWorker:
 				
 				self.clientInfo['event'].set()
 			
-				self.replyRtsp(self.OK_200, seq[1])
+				self.replyRtsp(self.OK_200, seq[0])
 		
 		# Process TEARDOWN request
 		elif requestType == self.TEARDOWN:
@@ -102,7 +106,7 @@ class ServerWorker:
 
 			self.clientInfo['event'].set()
 			
-			self.replyRtsp(self.OK_200, seq[1])
+			self.replyRtsp(self.OK_200, seq[0])
 			
 			# Close the RTP socket
 			self.clientInfo['rtpSocket'].close()

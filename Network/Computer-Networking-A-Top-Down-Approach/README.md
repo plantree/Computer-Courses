@@ -77,9 +77,41 @@
 
 - 文档：[DNS](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf)
 
-##### 3.4 
+##### 3.4 TCP
 
+- 文档：[TCP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf)
 
+##### 3.5 UDP
+
+- 文档： [UDP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf)
+
+##### 3.6 IP
+
+- 文档：[IP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf)
+
+##### 3.7 NAT
+
+- 文档：[NAT](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf)
+
+##### 3.8 DHCP
+
+- 文档：[DHCP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf)
+
+##### 3.9 ICMP
+
+- 文档：[ICMP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf)
+
+##### 3.10 Ethernet and ARP
+
+- 文档：[Ethernet and ARP](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf)
+
+##### 3.11 802.11 WiFi
+
+- 文档：[802.11 WiFi](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf)
+
+##### 3.12 TLS
+
+- 文档：[TLS](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf)
 
 #### 参考
 
@@ -87,4 +119,3 @@
 2. [Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
 3. [WIRESHARK LABS](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
 4. [ICMP Wikipedia](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
-5. 
